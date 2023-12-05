@@ -1,5 +1,5 @@
 {
-  "name": "prayno/casauth-bundle",
+  "name": "edditor/casauth-bundle",
   "type": "symfony-bundle",
   "description": "Basic CAS (SSO) authenticator for Symfony 3, 4 and 5",
   "keywords": ["PRayno", "CAS", "SSO", "Symfony 3", "Guard", "Symfony 4", "Symfony 5"],
@@ -16,7 +16,7 @@
     "symfony/http-foundation": "^3.0|^4.0|^5.0",
     "symfony/http-kernel": "^3.0|^4.0|^5.0",
     "symfony/security-bundle": "^3.0|^4.0|^5.0",
-    "guzzlehttp/guzzle": "^6.2"
+    "guzzlehttp/guzzle": "^6.2|^7"
   },
   "autoload": {
     "psr-0": { "PRayno\\CasAuthBundle": "" }
