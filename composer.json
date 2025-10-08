@@ -1,8 +1,8 @@
 {
   "name": "edditor/casauth-bundle",
   "type": "symfony-bundle",
-  "description": "Basic CAS (SSO) authenticator for Symfony 3, 4 and 5",
-  "keywords": ["PRayno", "CAS", "SSO", "Symfony 3", "Guard", "Symfony 4", "Symfony 5"],
+  "description": "Basic CAS (SSO) authenticator for Symfony 4 and 5",
+  "keywords": ["PRayno", "CAS", "SSO", "Guard", "Symfony 4", "Symfony 5"],
   "license": "MIT",
   "authors": [
     {
@@ -11,11 +11,11 @@
     }
   ],
   "require": {
-    "symfony/config": "^3.0|^4.0|^5.0",
-    "symfony/dependency-injection": "^3.0|^4.0|^5.0",
-    "symfony/http-foundation": "^3.0|^4.0|^5.0",
-    "symfony/http-kernel": "^3.0|^4.0|^5.0",
-    "symfony/security-bundle": "^3.0|^4.0|^5.0",
+    "symfony/config": "^4.0|^5.0",
+    "symfony/dependency-injection": "^4.0|^5.0",
+    "symfony/http-foundation": "^4.0|^5.0",
+    "symfony/http-kernel": "^4.0|^5.0",
+    "symfony/security-bundle": "^4.0|^5.0",
     "guzzlehttp/guzzle": "^6.2|^7"
   },
   "autoload": {
